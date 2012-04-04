@@ -283,9 +283,9 @@ msgid ""
 "save, your changes will be lost."
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
-"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Voulez-vous "
-"enregistrer les changements à ce croquis<BR> avant de fermer?</b><p>Si vous "
-"n'enregistrez pas, vos changements seront perdus."
+"{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Voulez-"
+"vous enregistrer les changements à ce croquis<BR> avant de fermer ?</b><p>Si "
+"vous n'enregistrez pas, vos changements seront perdus."
 
 #: Editor.java:2017 Editor.java:2098 Editor.java:2418 Sketch.java:589
 #: Sketch.java:741 Sketch.java:1046 Preferences.java:78
@@ -469,7 +469,7 @@ msgstr "Trouver:"
 
 #: FindReplace.java:81
 msgid "Replace with:"
-msgstr "Remplacer avec:"
+msgstr "Remplacer par:"
 
 #: FindReplace.java:96
 msgid "Ignore Case"
@@ -533,13 +533,12 @@ msgid ""
 "Serial port ''{0}'' already in use. Try quiting any programs that may be "
 "using it."
 msgstr ""
-"Le port série « {0} » est déjà utilisé. Essayez de quitter tout logiciel qui pourrait "
-"s'en servir."
+"Port série « {0} » déjà utilisé. Essayez de quitter tout logiciel qui pourrait s'en servir."
 
 #: Serial.java:154
 #, java-format
 msgid "Error opening serial port ''{0}''."
-msgstr "Erreur d'ouverture du port série « {0} »."
+msgstr "Erreur d''ouverture du port série « {0} »."
 
 #: Serial.java:167
 #, java-format
@@ -547,7 +546,7 @@ msgid ""
 "Serial port ''{0}'' not found. Did you select the right one from the Tools > "
 "Serial Port menu?"
 msgstr ""
-"Le port série « {0} » n'a pu être trouvé. Avez-vous sélectionné le bon dans le menu Outils > "
+"Port série « {0} » non trouvé. Avez-vous sélectionné le bon dans le menu Outils > "
 "Port Série ?"
 
 #: Serial.java:424
@@ -556,7 +555,7 @@ msgid ""
 "readBytesUntil() byte buffer is too small for the {0} bytes up to and "
 "including char {1}"
 msgstr ""
-"Le tampon mémoire readBytesUntil() est trop petit pour les {0} octets jusqu'au "
+"Le tampon mémoire readBytesUntil() est trop petit pour les {0} octets jusqu''au "
 "caractère {1} inclus"
 
 #: Serial.java:567
@@ -617,7 +616,7 @@ msgstr "Archiver le croquis"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
-msgstr "aaMMjj"
+msgstr "yyyyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
@@ -881,7 +880,7 @@ msgstr ""
 #: Sketch.java:1093
 #, java-format
 msgid "Could not add ''{0}'' to the sketch."
-msgstr "Impossible d'ajouter « {0} » au croquis."
+msgstr "Impossible d''ajouter « {0} » au croquis."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
@@ -908,7 +907,7 @@ msgstr "Transfert..."
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Taille binaire du croquis: {0} octets (d'un max de {1} octets)"
+msgstr "Taille binaire du croquis: {0} octets (d''un max de {1} octets)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
@@ -1039,7 +1038,7 @@ msgstr ""
 
 #: debug/Compiler.java:471
 msgid "The 'BYTE' keyword is no longer supported."
-msgstr "Le mot-clé 'BYTE' n'est plus supporté."
+msgstr "Le mot-clé « BYTE » n'est plus supporté."
 
 #: debug/Compiler.java:472
 msgid ""
@@ -1049,7 +1048,7 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Depuis Arduino 1.0, le mot-clé 'BYTE' n'est plus supporté.\n"
+"Depuis Arduino 1.0, le mot-clé « BYTE » n'est plus supporté.\n"
 "Veuillez utiliser Serial.write() à la place.\n"
 "\n"
 
@@ -1342,7 +1341,7 @@ msgid ""
 "Could not open the folder\n"
 "{0}"
 msgstr ""
-"Impossible d'ouvrir le dossier\n"
+"Impossible d''ouvrir le dossier\n"
 "{0}"
 
 #: Base.java:1782
