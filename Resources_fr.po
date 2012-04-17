@@ -1,4 +1,4 @@
-# French translations for IDE_translations package.
+# French (fr_FR) translations for IDE_translations package.
 # Copyright (C) 2012 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the IDE_translations package.
 # Alexis Morin <mail@alexismorin.com>, 2012.
@@ -6,17 +6,14 @@
 # Philippe Rivet <philipe.rivet at gmail.com>, 2012
 #
 # Lexique des termes utilisés dans cette traduction :
-#  - board : carte
+#  - board : modèle
 #  - burn bootloader : graver la séquence d'initialisation
 #  - library : bibliothèque
+#  - sketch : programme
+#  - sketchbook : dossier des programmes
+#  - upload : envoyer
 #  - look & feel : apparence
-#  - programmer : programmateur
-#  - sketch : croquis
-#  - sketchbook : carnet de croquis
-#  - upload : téléverser/téléversement
-#
-# La traduction des langues provient de
-#   http://anonscm.debian.org/gitweb/?p=iso-codes/iso-codes.git;a=blob;f=iso_639/fr.po
+#  - wrap around : sélectionner
 #
 msgid ""
 msgstr ""
@@ -26,7 +23,7 @@ msgstr ""
 "PO-Revision-Date: 2012-04-16 18:00-0400\n"
 "Last-Translator: Philippe Rivet <philipe.rivet at gmail.com>\n"
 "Language-Team: French\n"
-"Language: fr\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,16 +31,16 @@ msgstr ""
 
 #: Editor.java:366
 msgid "No files were added to the sketch."
-msgstr "Aucun fichier n'a été ajouté au croquis."
+msgstr "Aucun fichier n'a été ajouté au programme"
 
 #: Editor.java:369 Sketch.java:996
 msgid "One file added to the sketch."
-msgstr "Un fichier ajouté au croquis."
+msgstr "Un fichier ajouté au programme."
 
 #: Editor.java:373
 #, java-format
 msgid "{0} files added to the sketch."
-msgstr "{0} fichiers ajoutés au croquis."
+msgstr "{0} fichiers ajoutés au programme."
 
 #: Editor.java:484
 msgid "File"
@@ -59,7 +56,7 @@ msgstr "Ouvrir..."
 
 #: Editor.java:503
 msgid "Sketchbook"
-msgstr "Carnet de croquis"
+msgstr "Dossier des programmes"
 
 #: Editor.java:509
 msgid "Examples"
@@ -80,11 +77,11 @@ msgstr "Enregistrer sous..."
 
 #: Editor.java:538 EditorToolbar.java:41
 msgid "Upload"
-msgstr "Téléverser"
+msgstr "Envoyer"
 
 #: Editor.java:546 EditorToolbar.java:46
 msgid "Upload Using Programmer"
-msgstr "Téléverser avec un programmateur"
+msgstr "Envoyer avec un programmateur"
 
 #: Editor.java:556
 msgid "Page Setup"
@@ -104,7 +101,7 @@ msgstr "Quitter"
 
 #: Editor.java:600
 msgid "Sketch"
-msgstr "Croquis"
+msgstr "Programme"
 
 #: Editor.java:602
 msgid "Verify / Compile"
@@ -116,7 +113,7 @@ msgstr "Importer bibliothèque..."
 
 #: Editor.java:634
 msgid "Show Sketch Folder"
-msgstr "Afficher le dossier des croquis"
+msgstr "Afficher le dossier des programmes"
 
 #: Editor.java:643
 msgid "Add File..."
@@ -132,7 +129,7 @@ msgstr "Moniteur série"
 
 #: Editor.java:682
 msgid "Board"
-msgstr "Carte"
+msgstr "Modèle"
 
 #: Editor.java:690
 msgid "Serial Port"
@@ -278,7 +275,7 @@ msgstr "{0}.html"
 
 #: Editor.java:1843 Sketch.java:1647
 msgid "Compiling sketch..."
-msgstr "Compilation du croquis..."
+msgstr "Compilation du programme..."
 
 #: Editor.java:1864 Editor.java:1881
 msgid "Done compiling."
@@ -319,8 +316,8 @@ msgid ""
 "Processing can only open its own sketches\n"
 "and other files ending in .ino or .pde"
 msgstr ""
-"Processing ne peut ouvrir que ses propres croquis\n"
-"ou les fichiers se terminant par .ino ou .pde"
+"Processing ne peut ouvrir que ses propres programmes\n"
+"et les autres fichiers se terminant par .ino ou .pde"
 
 #: Editor.java:2098 Editor.java:2418 Sketch.java:589 Sketch.java:741
 #: Sketch.java:1046 Preferences.java:79
@@ -335,7 +332,7 @@ msgid ""
 "Create this folder, move the file, and continue?"
 msgstr ""
 "Le fichier « {0} » doit résider dans\n"
-"un dossier de croquis nommé « {1} ».\n"
+"un dossier de programme nommé « {1} ».\n"
 "Créer ce dossier, déplacer le fichier et continuer ?"
 
 #: Editor.java:2109
@@ -351,11 +348,11 @@ msgstr "Erreur"
 #: Editor.java:2122
 #, java-format
 msgid "A folder named \"{0}\" already exists. Can't open sketch."
-msgstr "Un dossier nommé « {0} » existe déjà. Impossible d'ouvrir le croquis."
+msgstr "Un dossier nommé « {0} » existe déjà. Impossible d'ouvrir le programme."
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr "Impossible de créer le dossier de croquis."
+msgstr "Impossible de créer le dossier de programme."
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
@@ -363,7 +360,7 @@ msgstr "Impossible de copier au bon emplacement."
 
 #: Editor.java:2159
 msgid "Could not create the sketch."
-msgstr "Impossible de créer le croquis."
+msgstr "Impossible de créer le programme."
 
 #: Editor.java:2166
 #, java-format
@@ -389,19 +386,19 @@ msgid ""
 "Retry the upload with another serial port?"
 msgstr ""
 "Port série {0} introuvable.\n"
-"Réessayer le téléversement à partir d'un autre port série ?"
+"Réessayer l'envoi à partir d'un autre port série ?"
 
 #: Editor.java:2331
 msgid "Uploading to I/O Board..."
-msgstr "Téléversement vers la carte E/S..."
+msgstr "Envoi vers la carte E/S..."
 
 #: Editor.java:2348 Editor.java:2384
 msgid "Done uploading."
-msgstr "Téléversement terminé"
+msgstr "Envoi terminé"
 
 #: Editor.java:2356 Editor.java:2392
 msgid "Upload canceled."
-msgstr "Téléversement annulé."
+msgstr "Envoi annulé."
 
 #: Editor.java:2420
 msgid "Save changes before export?"
@@ -423,7 +420,7 @@ msgstr "Gravure de la séquence d'initialisation terminée."
 
 #: Editor.java:2465 Editor.java:2469 Editor.java:2473
 msgid "Error while burning bootloader."
-msgstr "Erreur lors de la gravure de la séquence d'initialisation."
+msgstr "Erreur lors de la création de la séquence d'initialisation."
 
 #: Editor.java:2500
 msgid "Printing..."
@@ -492,7 +489,7 @@ msgstr "Ignorer la casse"
 
 #: FindReplace.java:105
 msgid "Wrap Around"
-msgstr "Recherche circulaire"
+msgstr "Sélectionner"
 
 #: FindReplace.java:120 FindReplace.java:131
 msgid "Replace All"
@@ -563,7 +560,7 @@ msgid ""
 "Serial Port menu?"
 msgstr ""
 "Port série « {0} » non trouvé. L'avez-vous bien sélectionné dans le menu "
-"Outils > Port série ?"
+"Outils > Port Série ?"
 
 #: Serial.java:424
 #, java-format
@@ -614,7 +611,7 @@ msgstr "Réparer encodage & recharger"
 
 #: tools/FixEncoding.java:57
 msgid "Discard all changes and reload sketch?"
-msgstr "Laisser tomber les changements et recharger le croquis ?"
+msgstr "Laisser tomber les changements et recharger le programme ?"
 
 #: tools/FixEncoding.java:77
 msgid ""
@@ -623,12 +620,12 @@ msgid ""
 "the old version. Use Open to re-open the sketch and try again.\n"
 msgstr ""
 "Une erreur est survenue lors de la réparation de l'encodage du fichier.\n"
-"Ne pas tenter d'enregistrer ce croquis, car cela pourrait écraser\n"
-"l'ancienne version. Utiliser Ouvrir pour réouvrir le croquis et réessayer.\n"
+"Ne pas tenter d'enregistrer ce programme, car cela pourrait écraser\n"
+"l'ancienne version. Utiliser Ouvrir pour réouvrir le programme et réessayer.\n"
 
 #: tools/Archiver.java:48
 msgid "Archive Sketch"
-msgstr "Archiver le croquis"
+msgstr "Archiver le programme"
 
 #: tools/Archiver.java:59
 msgid "yyMMdd"
@@ -636,23 +633,23 @@ msgstr "yyyyMMdd"
 
 #: tools/Archiver.java:74
 msgid "Couldn't archive sketch"
-msgstr "Impossible d'archiver le croquis"
+msgstr "Impossible d'archiver le programme"
 
 #: tools/Archiver.java:75
 msgid ""
 "Archiving the sketch has been canceled because\n"
 "the sketch couldn't save properly."
 msgstr ""
-"L'archivage du croquis a été annulé car\n"
-"le croquis n'a pu s'enregistrer correctement."
+"L'archivage du programme a été annulé car\n"
+"le programme n'a pu s'enregistrer correctement."
 
 #: tools/Archiver.java:109
 msgid "Archive sketch as:"
-msgstr "Archiver le croquis sous :"
+msgstr "Archiver le programme sous :"
 
 #: tools/Archiver.java:139
 msgid "Archive sketch canceled."
-msgstr "Archivage du croquis annulé"
+msgstr "Archivage du programme annulé"
 
 #: SketchCode.java:83
 #, java-format
@@ -669,12 +666,12 @@ msgid ""
 msgstr ""
 "« {0} » contient des caractères non reconnus. Si le code a été créé avec une "
 "vieille version de Processing, vous pouvez utiliser Outils -> Réparer "
-"encodage & recharger pour mettre le croquis à jour en UTF-8. Sinon, vous "
+"encodage & recharger pour mettre le programme à jour en UTF-8. Sinon, vous "
 "devrez supprimer les caractères invalides pour supprimer cet avertissement."
 
 #: Sketch.java:278 Sketch.java:307 Sketch.java:581 Sketch.java:970
 msgid "Sketch is Read-Only"
-msgstr "Le croquis est en lecture-seule"
+msgstr "Le programme est en lecture-seule"
 
 #: Sketch.java:279 Sketch.java:308 Sketch.java:582 Sketch.java:971
 msgid ""
@@ -683,7 +680,7 @@ msgid ""
 "and try again."
 msgstr ""
 "Certains fichiers sont marqués « lecture-seule », vous devrez\n"
-"réenregistrer le croquis à un autre emplacement,\n"
+"réenregistrer le programme à un autre emplacement,\n"
 "et réessayer."
 
 #: Sketch.java:286
@@ -692,14 +689,14 @@ msgstr "Nom du nouveau fichier :"
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
-msgstr "Croquis sans nom"
+msgstr "programme sans nom"
 
 #: Sketch.java:299
 msgid ""
 "How about saving the sketch first \n"
 "before trying to rename it?"
 msgstr ""
-"Et si vous enregistriez le croquis\n"
+"Et si vous enregistriez le programme\n"
 "avant d'essayer de le renommer ?"
 
 #: Sketch.java:359 Sketch.java:366 Sketch.java:377
@@ -736,14 +733,14 @@ msgstr "Un fichier nommé « {0} » existe déjà dans « {1} »"
 
 #: Sketch.java:415
 msgid "You can't have a .cpp file with the same name as the sketch."
-msgstr "Vous ne pouvez avoir de fichier .cpp avec le même nom que le croquis."
+msgstr "Vous ne pouvez avoir de fichier .cpp avec le même nom que le programme."
 
 #: Sketch.java:425
 msgid ""
 "You can't rename the sketch to \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"Vous ne pouvez renommer le croquis en « {0} »\n"
+"Vous ne pouvez renommer le programme en « {0} »\n"
 "car il existe déjà un fichier .cpp portant ce nom."
 
 #: Sketch.java:459
@@ -753,11 +750,11 @@ msgstr "Impossible de renommer"
 #: Sketch.java:461
 #, java-format
 msgid "Sorry, a sketch (or folder) named \"{0}\" already exists."
-msgstr "Désolé, un croquis (ou dossier) nommé « {0} » existe déjà."
+msgstr "Désolé, un programme (ou dossier) nommé « {0} » existe déjà."
 
 #: Sketch.java:479
 msgid "Could not rename the sketch. (0)"
-msgstr "Impossible de renommer le croquis. (0)"
+msgstr "Impossible de renommer le programme. (0)"
 
 #: Sketch.java:487 Sketch.java:532
 #, java-format
@@ -766,11 +763,11 @@ msgstr "Impossible de renommer « {0} » en « {1} »"
 
 #: Sketch.java:500
 msgid "Could not rename the sketch. (1)"
-msgstr "Impossible de renommer le croquis. (1)"
+msgstr "Impossible de renommer le programme. (1)"
 
 #: Sketch.java:507
 msgid "Could not rename the sketch. (2)"
-msgstr "Impossible de renommer le croquis. (2)"
+msgstr "Impossible de renommer le programme. (2)"
 
 #: Sketch.java:544
 msgid "createNewFile() returned false"
@@ -778,7 +775,7 @@ msgstr "createNewFile() a renvoyé false"
 
 #: Sketch.java:591
 msgid "Are you sure you want to delete this sketch?"
-msgstr "Êtes-vous certain de vouloir supprimer ce croquis ?"
+msgstr "Êtes-vous certain de vouloir supprimer ce programme ?"
 
 #: Sketch.java:592
 #, java-format
@@ -804,7 +801,7 @@ msgstr "removeCode : erreur interne.. n'a pu trouver le code"
 
 #: Sketch.java:724
 msgid "Sketch is read-only"
-msgstr "Le croquis est en lecture-seule"
+msgstr "Le programme est en lecture-seule"
 
 #: Sketch.java:725
 msgid ""
@@ -812,7 +809,7 @@ msgid ""
 "need to re-save this sketch to another location."
 msgstr ""
 "Certain fichiers sont marqués \"lecture-seule\", vous devrez\n"
-"réenregistrer ce croquis à un autre emplacement."
+"réenregistrer ce programme à un autre emplacement."
 
 #: Sketch.java:743
 msgid ""
@@ -825,12 +822,12 @@ msgid ""
 "Save sketch and update its extension?"
 msgstr ""
 "Dans Arduino 1.0, l'extension par défaut a changé\n"
-"de .pde à .ino. Les nouveaux croquis (incluant ceux créés\n"
+"de .pde à .ino. Les nouveaux programme (incluant ceux créés\n"
 "par « Enregistrer Sous » utiliseront la nouvelle extension. L'extension\n"
-"des croquis existants sera mise à jour à la sauvegarde, mais vous pouvez\n"
+"des programmes existants sera mise à jour à la sauvegarde, mais vous pouvez\n"
 "désactiver ceci dans les Préférences.\n"
 "\n"
-"Sauvegarder le croquis et mettre à jour son extension ?"
+"Sauvegarder le programme et mettre à jour son extension ?"
 
 #: Sketch.java:750
 msgid ".pde -> .ino"
@@ -838,33 +835,33 @@ msgstr ".pde -> .ino"
 
 #: Sketch.java:829
 msgid "Save sketch folder as..."
-msgstr "Enregistrer le dossier des croquis sous..."
+msgstr "Enregistrer le dossier des programme sous..."
 
 #: Sketch.java:865
 msgid ""
 "You can't save the sketch as \"{0}\"\n"
 "because the sketch already has a .cpp file with that name."
 msgstr ""
-"Vous ne pouvez enregistrer le croquis sous « {0} »\n"
+"Vous ne pouvez enregistrer le programme sous « {0} »\n"
 "Car il existe déjà un fichier .cpp portant ce nom."
 
 #: Sketch.java:886
 msgid "How very Borges of you"
-msgstr "Comme c'est Borges de votre part"
+msgstr "Illogique dirait Mr Spock"
 
 #: Sketch.java:887
 msgid ""
 "You cannot save the sketch into a folder\n"
 "inside itself. This would go on forever."
 msgstr ""
-"Vous ne pouvez enregistrer ce croquis dans son\n"
-"propre dossier. Cela ferait une boucle infinie."
+"Vous ne pouvez enregistrer ce programme dans son propre dossier.\n"
+". Cela ferait une boucle infinie."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
 msgstr ""
 "Sélectionner une image ou autre fichier de données à copier \n"
-"dans votre croquis"
+"dans votre programme"
 
 #: Sketch.java:1047
 #, java-format
@@ -891,17 +888,17 @@ msgid ""
 "I ain't not doin nuthin'."
 msgstr ""
 "Ce fichier a déjà été copié à\n"
-"l'emplacement duquel vous essayez de l'ajouter.\n"
-"J'frai rien dans ce cas-là."
+"l'emplacement auquel vous essayez de l'ajouter.\n"
+"Rien ne sera fait."
 
 #: Sketch.java:1093
 #, java-format
 msgid "Could not add ''{0}'' to the sketch."
-msgstr "Impossible d''ajouter « {0} » au croquis."
+msgstr "Impossible d''ajouter « {0} » au programme."
 
 #: Sketch.java:1393 Sketch.java:1424
 msgid "Build folder disappeared or could not be written"
-msgstr "Dossier de construction disparu ou n'a pas pu être créé"
+msgstr "Le dossier de travail a disparu ou n'a pas pu être créé"
 
 #: Sketch.java:1408
 msgid "Could not find main class"
@@ -915,16 +912,16 @@ msgstr "Exception non capturée de type : {0}"
 #: Sketch.java:1465
 #, java-format
 msgid "Problem moving {0} to the build folder"
-msgstr "Problème de déplacement de {0} vers le dossier de construction"
+msgstr "Problème de déplacement de {0} vers le dossier de travail"
 
 #: Sketch.java:1661
 msgid "Uploading..."
-msgstr "Téléversement..."
+msgstr "Envoi en cours..."
 
 #: Sketch.java:1684
 #, java-format
 msgid "Binary sketch size: {0} bytes (of a {1} byte maximum)"
-msgstr "Taille binaire du croquis : {0} octets (d''un max de {1} octets)"
+msgstr "Taille binaire du programme : {0} octets (d''un max de {1} octets)"
 
 #: Sketch.java:1689
 msgid "Couldn't determine program size: {0}"
@@ -935,8 +932,8 @@ msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
 msgstr ""
-"Croquis trop gros ; vois http://www.arduino.cc/en/Guide/Troubleshooting#size "
-"pour des conseils de réduction."
+"programme trop gros ; aller sur http://www.arduino.cc/en/Guide/Troubleshooting#size "
+"pour voir comment diminuer sa taille."
 
 #: Sketch.java:1754
 msgid "Missing the */ from the end of a /* comment */"
@@ -944,7 +941,7 @@ msgstr "Il manque le */ sur la fin d'un /* commentaire */"
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr "Croquis disparu"
+msgstr "programme disparu"
 
 #: Sketch.java:1797
 msgid ""
@@ -952,21 +949,21 @@ msgid ""
 " Will attempt to re-save in the same location,\n"
 "but anything besides the code will be lost."
 msgstr ""
-"Le dossier croquis a disparu.\n"
+"Le dossier programme a disparu.\n"
 " Nous allons essayer de réenregistrer au même emplacement,\n"
 "mais seul le code sera conservé."
 
 #: Sketch.java:1810
 msgid "Could not re-save sketch"
-msgstr "Impossible de réenregistrer le croquis"
+msgstr "Impossible de réenregistrer le programme"
 
 #: Sketch.java:1811
 msgid ""
 "Could not properly re-save the sketch. You may be in trouble at this point,\n"
 "and it might be time to copy and paste your code to another text editor."
 msgstr ""
-"Impossible de réenregistrer correctement le croquis. Pour éviter de perdre votre\n"
-"travail, faites un copier-coller de votre code dans un autre éditeur texte."
+"Impossible de réenregistrer correctement le programme. Pour éviter de perdre votre travail,\n"
+"faites un copier-coller de votre code dans un autre éditeur texte."
 
 #: Sketch.java:2060
 msgid ""
@@ -974,10 +971,10 @@ msgid ""
 "of ASCII characters and numbers (but cannot start with a number).\n"
 "They should also be less less than 64 characters long."
 msgstr ""
-"Le nom du croquis doit être changé. Les noms de croquis doivent consister\n"
-"de caractères ASCII et de chiffres (mais ne peuvent commencer par un "
+"Le nom du programme doit être changé. Les noms de programmes peuvent comporter\n"
+"des caractères ASCII et des chiffres (mais ne doivent pas commencer par un "
 "chiffre).\n"
-"Ils doivent aussi être plus courts que 64 caractères."
+"Ils ne doivent pas dépasser 64 caractères."
 
 #: debug/Uploader.java:52
 msgid "https://developer.berlios.de/bugs/?group_id=3590"
@@ -1008,16 +1005,16 @@ msgid ""
 "Problem uploading to board.  See http://www.arduino.cc/en/Guide/"
 "Troubleshooting#upload for suggestions."
 msgstr ""
-"Problème de téléversement vers la carte. Voir http://www.arduino.cc/en/"
-"Guide/Troubleshooting#upload pour suggestions."
+"Problème d'envoi vers l'Arduino. Voir http://www.arduino.cc/en/"
+"Troubleshooting#upload pour des suggestions."
 
 #: debug/Uploader.java:213
 msgid ""
 "Wrong microcontroller found.  Did you select the right board from the Tools "
 "> Board menu?"
 msgstr ""
-"Mauvais microcontrôleur trouvé. Avez-vous sélectionné la bonne carte dans "
-"le menu Outils > Carte ?"
+"Mauvais microcontrôleur trouvé. Avez-vous sélectionné le bon modèle dans "
+"le menu Outils > Modèle ?"
 
 #: debug/Compiler.java:41
 msgid "http://code.google.com/p/arduino/issues/list"
@@ -1026,8 +1023,8 @@ msgstr "http://code.google.com/p/arduino/issues/list"
 #: debug/Compiler.java:79
 msgid "No board selected; please choose a board from the Tools > Board menu."
 msgstr ""
-"Aucune carte sélectionnée, veuillez choisir une carte dans le menu Outil > "
-"Carte"
+"Aucun modèle sélectionné, veuillez choisir un modèle dans le menu Outil > "
+"Modèle"
 
 #: debug/Compiler.java:422
 #, java-format
@@ -1041,7 +1038,7 @@ msgstr "Erreur de compilation."
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr ""
-"Veuillez importer la bibliothèque SPI depuis le menu Croquis > Importer "
+"Veuillez importer la bibliothèque SPI depuis le menu programme > Importer "
 "bibliothèque."
 
 #: debug/Compiler.java:466
@@ -1165,7 +1162,7 @@ msgid ""
 "files used to store the console output."
 msgstr ""
 "Un problème est survenu lors de l'ouverture\n"
-"des fichiers contenant la sortie de console."
+"des fichiers utilisé pour l'affichage de la console."
 
 #: Base.java:184
 msgid "Non-fatal error while setting the Look & Feel."
@@ -1203,7 +1200,7 @@ msgstr ""
 
 #: Base.java:257
 msgid "Sketchbook folder disappeared"
-msgstr "Le dossier des croquis est disparu"
+msgstr "Le dossier des programmes a disparu"
 
 #: Base.java:258
 msgid ""
@@ -1213,7 +1210,7 @@ msgid ""
 "necessary. Arduino will then stop talking about\n"
 "himself in the third person."
 msgstr ""
-"Le dossier des croquis n'existe plus.\n"
+"Le dossier des programmes n'existe plus.\n"
 "Arduino va aller à l'emplacement\n"
 "par défaut, et créer un nouveau dossier\n"
 "si nécessaire. Arduino cessera ensuite\n"
@@ -1241,7 +1238,7 @@ msgstr "Non vraiment, tu devrais aller prendre l'air."
 
 #: Base.java:633
 msgid "Open an Arduino sketch..."
-msgstr "Ouvrir un croquis Arduino..."
+msgstr "Ouvrir un programme Arduino..."
 
 #: Base.java:772
 msgid ""
@@ -1251,7 +1248,7 @@ msgid ""
 msgstr ""
 "<html> <head> <style type=\"text/css\">b { font: 13pt \"Lucida Grande\" }p "
 "{ font: 11pt \"Lucida Grande\"; margin-top: 8px }</style> </head><b>Êtes-"
-"vous certain de vouloir quitter ?</b><p>Fermer le dernier croquis quittera "
+"vous certain de vouloir quitter ?</b><p>Fermer le dernier programme quittera "
 "l'environnement Arduino."
 
 #: Base.java:970
@@ -1260,7 +1257,7 @@ msgstr "Contribué"
 
 #: Base.java:1095
 msgid "Sketch Does Not Exist"
-msgstr "Ce croquis n'existe pas"
+msgstr "Ce programme n'existe pas"
 
 #: Base.java:1096
 msgid ""
@@ -1268,9 +1265,9 @@ msgid ""
 "You may need to restart Arduino to update\n"
 "the sketchbook menu."
 msgstr ""
-"Le croquis sélectionné n'existe plus.\n"
+"Le programme sélectionné n'existe plus.\n"
 "Vous devrez redémarrer Arduino pour mettre à jour\n"
-"le menu Carnet de croquis."
+"le dossier des programmes."
 
 #: Base.java:1125
 #, java-format
@@ -1281,15 +1278,15 @@ msgid ""
 "To get rid of this message, remove the sketch from\n"
 "{1}"
 msgstr ""
-"Le croquis « {0} » ne peut être utilisé.\n"
-"Les noms de croquis ne doivent contenir que des lettres et des chiffres\n"
+"Le programme « {0} » ne peut être utilisé.\n"
+"Les noms de programme ne doivent contenir que des lettres et des chiffres\n"
 "(ASCII seulement sans espace, et ne peuvent commencer par un chiffre)\n"
-"Pour se débarrasser de ce message, retirer le croquis de\n"
+"Pour se débarrasser de ce message, retirer le programme de\n"
 "{1}"
 
 #: Base.java:1132
 msgid "Ignoring sketch with bad name"
-msgstr "Ignore un croquis mal nommé"
+msgstr "Ignore un programme mal nommé"
 
 #: Base.java:1202
 #, java-format
@@ -1329,7 +1326,7 @@ msgstr ""
 
 #: Base.java:1602
 msgid "You forgot your sketchbook"
-msgstr "Vous avez oublié votre carnet de croquis"
+msgstr "Vous avez éffacé votre dossier des programmes"
 
 #: Base.java:1603
 msgid ""
@@ -1337,11 +1334,11 @@ msgid ""
 "create a folder to store your sketchbook."
 msgstr ""
 "Arduino n'a pas pu s'exécuter car il n'a\n"
-"pas pu créer de dossier pour enregistrer votre carnet de croquis."
+"pas pu créer de dossier pour enregistrer vos programmes."
 
 #: Base.java:1623
 msgid "Select (or create new) folder for sketches..."
-msgstr "Sélectionner (ou créer) un dossier de croquis..."
+msgstr "Sélectionner (ou créer) un dossier de programmes..."
 
 #: Base.java:1647
 msgid "Problem Opening URL"
@@ -1416,7 +1413,7 @@ msgstr "Avertissement"
 #: Base.java:2196
 #, java-format
 msgid "Could not remove old version of {0}"
-msgstr "Impossible de retirer la vieille version de {0}"
+msgstr "Impossible d'effacer l'ancienne version de {0}"
 
 #: Base.java:2206
 #, java-format
@@ -1516,7 +1513,7 @@ msgstr "français"
 
 #: Preferences.java:122
 msgid "Filipino"
-msgstr "filipino"
+msgstr "Philippin"
 
 #: Preferences.java:123
 msgid "Galician"
@@ -1548,7 +1545,7 @@ msgstr "letton"
 
 #: Preferences.java:130
 msgid "Persian"
-msgstr "persan"
+msgstr "perse"
 
 #: Preferences.java:131
 msgid "Portuguese (Brazil)"
@@ -1560,7 +1557,7 @@ msgstr "roumain"
 
 #: Preferences.java:133
 msgid "Spanish"
-msgstr "castillan"
+msgstr "Espagnol"
 
 #: Preferences.java:222
 msgid ""
@@ -1591,11 +1588,11 @@ msgstr ""
 
 #: Preferences.java:311
 msgid "Sketchbook location:"
-msgstr "Emplacement du carnet de croquis"
+msgstr "Emplacement du dossier des programmes"
 
 #: Preferences.java:326
 msgid "Select new sketchbook location"
-msgstr "Sélectionner un nouvel emplacement pour le carnet de croquis"
+msgstr "Sélectionner un nouvel emplacement pour le dossier des programmes"
 
 #: Preferences.java:350
 msgid "Editor font size: "
@@ -1615,11 +1612,11 @@ msgstr "compilation "
 
 #: Preferences.java:371
 msgid "upload"
-msgstr "téléversement"
+msgstr "envoi"
 
 #: Preferences.java:380
 msgid "Verify code after upload"
-msgstr "Vérifier le code après téléversement"
+msgstr "Vérifier le code après envoi"
 
 #: Preferences.java:389
 msgid "Use external editor"
