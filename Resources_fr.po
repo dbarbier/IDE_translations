@@ -332,7 +332,7 @@ msgid ""
 "Create this folder, move the file, and continue?"
 msgstr ""
 "Le fichier « {0} » doit résider dans\n"
-"un dossier de programme nommé « {1} ».\n"
+"un dossier de programmes nommé « {1} ».\n"
 "Créer ce dossier, déplacer le fichier et continuer ?"
 
 #: Editor.java:2109
@@ -352,7 +352,7 @@ msgstr "Un dossier nommé « {0} » existe déjà. Impossible d'ouvrir le prog
 
 #: Editor.java:2132
 msgid "Could not create the sketch folder."
-msgstr "Impossible de créer le dossier de programme."
+msgstr "Impossible de créer le dossier de programmes."
 
 #: Editor.java:2141
 msgid "Could not copy to a proper location."
@@ -689,7 +689,7 @@ msgstr "Nom du nouveau fichier :"
 
 #: Sketch.java:298
 msgid "Sketch is Untitled"
-msgstr "programme sans nom"
+msgstr "Programme sans nom"
 
 #: Sketch.java:299
 msgid ""
@@ -822,8 +822,8 @@ msgid ""
 "Save sketch and update its extension?"
 msgstr ""
 "Dans Arduino 1.0, l'extension par défaut a changé\n"
-"de .pde à .ino. Les nouveaux programme (incluant ceux créés\n"
-"par « Enregistrer Sous » utiliseront la nouvelle extension. L'extension\n"
+"de .pde à .ino. Les nouveaux programmes (incluant ceux créés\n"
+"par « Enregistrer sous » utiliseront la nouvelle extension. L'extension\n"
 "des programmes existants sera mise à jour à la sauvegarde, mais vous pouvez\n"
 "désactiver ceci dans les Préférences.\n"
 "\n"
@@ -835,7 +835,7 @@ msgstr ".pde -> .ino"
 
 #: Sketch.java:829
 msgid "Save sketch folder as..."
-msgstr "Enregistrer le dossier des programme sous..."
+msgstr "Enregistrer le dossier des programmes sous..."
 
 #: Sketch.java:865
 msgid ""
@@ -855,7 +855,7 @@ msgid ""
 "inside itself. This would go on forever."
 msgstr ""
 "Vous ne pouvez enregistrer ce programme dans son propre dossier.\n"
-". Cela ferait une boucle infinie."
+"Cela ferait une boucle infinie."
 
 #: Sketch.java:979
 msgid "Select an image or other data file to copy to your sketch"
@@ -932,7 +932,7 @@ msgid ""
 "Sketch too big; see http://www.arduino.cc/en/Guide/Troubleshooting#size for "
 "tips on reducing it."
 msgstr ""
-"programme trop gros ; aller sur http://www.arduino.cc/en/Guide/Troubleshooting#size "
+"Programme trop gros ; aller sur http://www.arduino.cc/en/Guide/Troubleshooting#size "
 "pour voir comment diminuer sa taille."
 
 #: Sketch.java:1754
@@ -941,7 +941,7 @@ msgstr "Il manque le */ sur la fin d'un /* commentaire */"
 
 #: Sketch.java:1796
 msgid "Sketch Disappeared"
-msgstr "programme disparu"
+msgstr "Programme disparu"
 
 #: Sketch.java:1797
 msgid ""
@@ -1038,7 +1038,7 @@ msgstr "Erreur de compilation."
 #: debug/Compiler.java:465
 msgid "Please import the SPI library from the Sketch > Import Library menu."
 msgstr ""
-"Veuillez importer la bibliothèque SPI depuis le menu programme > Importer "
+"Veuillez importer la bibliothèque SPI depuis le menu Programme > Importer "
 "bibliothèque."
 
 #: debug/Compiler.java:466
@@ -1162,7 +1162,7 @@ msgid ""
 "files used to store the console output."
 msgstr ""
 "Un problème est survenu lors de l'ouverture\n"
-"des fichiers utilisé pour l'affichage de la console."
+"des fichiers utilisés pour l'affichage de la console."
 
 #: Base.java:184
 msgid "Non-fatal error while setting the Look & Feel."
@@ -1279,7 +1279,7 @@ msgid ""
 "{1}"
 msgstr ""
 "Le programme « {0} » ne peut être utilisé.\n"
-"Les noms de programme ne doivent contenir que des lettres et des chiffres\n"
+"Les noms de programmes ne doivent contenir que des lettres et des chiffres\n"
 "(ASCII seulement sans espace, et ne peuvent commencer par un chiffre)\n"
 "Pour se débarrasser de ce message, retirer le programme de\n"
 "{1}"
@@ -1326,7 +1326,7 @@ msgstr ""
 
 #: Base.java:1602
 msgid "You forgot your sketchbook"
-msgstr "Vous avez éffacé votre dossier des programmes"
+msgstr "Vous avez effacé votre dossier des programmes"
 
 #: Base.java:1603
 msgid ""
@@ -1513,7 +1513,7 @@ msgstr "français"
 
 #: Preferences.java:122
 msgid "Filipino"
-msgstr "Philippin"
+msgstr "filipino"
 
 #: Preferences.java:123
 msgid "Galician"
@@ -1545,7 +1545,7 @@ msgstr "letton"
 
 #: Preferences.java:130
 msgid "Persian"
-msgstr "perse"
+msgstr "persan"
 
 #: Preferences.java:131
 msgid "Portuguese (Brazil)"
@@ -1557,7 +1557,7 @@ msgstr "roumain"
 
 #: Preferences.java:133
 msgid "Spanish"
-msgstr "Espagnol"
+msgstr "castillan"
 
 #: Preferences.java:222
 msgid ""
